@@ -1,0 +1,303 @@
+.Header-all {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.42);
+  margin-right: 4rem;
+  z-index: 111111;
+}
+.Header-all .logo {
+  width: 13%;
+}
+.Header-all .novbar {
+  width: 80%;
+  text-align: left;
+  padding: 0 40px;
+}
+.Header-all .menu-bar {
+  width: 5%;
+  text-align: center;
+}
+.Header-all .logo img {
+  width: 100%;
+}
+.Header-all .novbar a {
+  width: 80%;
+  color: white;
+  padding: 0 25px;
+  font-size: 20px;
+}
+.menu-bar i {
+  font-size: 24px;
+  color: white;
+}
+#Body-first {
+  background-image: url(photos/big-ben-2605315.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding: 13rem 0;
+  background-attachment: fixed;
+}
+.first-boxs {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+}
+.first-text h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.first-text h3 {
+  font-size: 20px;
+  color: white;
+}
+.first-text form {
+  margin: 50px;
+  display: flex;
+  width: 20%;
+  margin: 50px auto;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.first-text form select {
+  border: none;
+  text-decoration: none;
+  font-size: 15px;
+}
+.first-boxs .box {
+  background-color: rgba(0, 0, 0, 0.42);
+  text-align: center;
+  padding: 20px 10px;
+}
+.first-boxs .box p {
+  color: white;
+  margin-top: 10px;
+}
+.first-boxs .box img {
+  width: 30%;
+}
+.Body-second {
+  padding: 80px;
+}
+.second-text {
+  text-align: center;
+}
+.second-text h2 {
+  margin: 10px 0 40px;
+}
+.second-boxs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.second-boxs .box {
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+}
+.second-boxs img {
+  width: 100%;
+  transition: .5s all;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+
+}
+.second-boxs img:hover{
+  filter: grayscale(1);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.Body-third {
+  background-image: url(photos/korpu.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+  background-attachment: fixed;
+}
+.body-text {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-text h1 {
+  font-size: 50px;
+  color: white;
+}
+.body-text a {
+  color: #f87170;
+  padding: 10px 50px;
+  background-color: white;
+  border-radius: 40px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.body-fourth {
+  padding: 80px;
+}
+.body-fourth .top-left {
+  width: 30%;
+}
+.body-fourth .top-right {
+  width: 60%;
+}
+.body-fourth .top-right img {
+  width: 100%;
+}
+.body-fourth .top-left h3 {
+  color: #9a9aaa;
+  font-size: 14px;
+}
+.body-fourth .top-left h2 {
+  color: #555555;
+  font-size: 36px;
+}
+.body-fourth .top-left h2 u {
+  text-decoration-color: #14b9d5;
+}
+.body-fourth .top-left p {
+  color: #9a9a9a;
+  font-size: 18px;
+  padding: 20px 0;
+  line-height: 30px;
+}
+.body-fourth .top-left a {
+  padding: 10px 40px;
+  background-color: #1bbc9b;
+  border-radius: 20px;
+  color: white;
+}
+.bottom-left,
+.bottom-mid,
+.bottom-right {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-left,
+.bottom-mid,
+.bottom-right {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-left .picture,
+.bottom-mid .picture,
+.bottom-right .picture {
+  width: 15%;
+}
+.bottom-left .writes,
+.bottom-mid .writes,
+.bottom-right .writes {
+  width: 70%;
+}
+.bottom {
+  display: flex;
+  margin: 40px 0;
+}
+.bottom img {
+  width: 100%;
+}
+.bottom p {
+  padding: 20px 0;
+  font-size: 14px;
+}
+.bottom a {
+  color: #14b9d5;
+}
+.Fifth {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.Fifth .box {
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 15px;
+}
+.Fifth .box h3 {
+  color: white;
+  font-size: 14px;
+}
+.Fifth .box h2 {
+  color: white;
+  font-size: 36px;
+  padding: 20px 0;
+}
+.Fifth .box a {
+  color: red;
+  font-size: 14px;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.Sixth {
+  margin: 0 80px;
+}
+.six-top {
+  text-align: center;
+  padding: 50px;
+}
+.six-top h2 {
+  padding: 10px 0;
+  font-size: 36px;
+}
+.six-top h3 {
+  font-size: 14px;
+}
+.six-top h2 u {
+  text-decoration-color: #14b9d5;
+}
+.six-button {
+  display: flex;
+  justify-content: space-between;
+}
+.six-button .box {
+  width: 30%;
+  border: 1px solid #9a9a9a;
+  padding-bottom: 40px;
+}
+.six-button .box img {
+  width: 100%;
+}
+.six-button .box a {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+}
+.six-button .box p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: #9a9a9a;
+  line-height: 30px;
+}
+.six-button .box h3 {
+  font-size: 20px;
+  color: black;
+ 
+}
+.six-button .box h5 {
+  font-size: 15px;
+  color: #9a9a9a;
+  font-weight: 200;
+  border-bottom: 1px solid #9a9a9a6a;
+  padding-bottom: 10px;
+}
+.six-button .box h6 {
+  padding: 30px 0;
+  font-size: 15px;
+  font-weight: 100;
+  border-bottom: 1px solid #9a9a9a62;
+}
+.six-button .box .text {
+  padding: 0 25px;
+}
